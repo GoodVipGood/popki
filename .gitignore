@@ -46,7 +46,7 @@ GUI:CreateButton({
     parent = main, 
     text = "esp", 
     callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/GoodVipGood/popkaa/refs/heads/main/README.md"))()
+        loadstring(game:HttpGet("https://github.com/GoodVipGood/popkaa/blob/main/README.md"))()
         GUI:CreateNotify({title = "Welcome", description = "yba popka"})
     end
 })
